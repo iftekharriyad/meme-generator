@@ -1,23 +1,31 @@
 .container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     .meme-form{
 
         #form-row{
           width: 72%;
           margin:0px auto;
+
+          .btn-generate{
+              background-color:rgba(128, 0, 128, 0.699);
+              color:white;
+          }
         }
     }
     #memeCont{
-        width:max-content;
+        width:100%;
         margin: 0 auto;
         position: relative;
 
         img{
-            max-height:450px;
+            max-height:500px;
+            display: block;
+            margin:0 auto;
         }
         p{
             color:white;
             text-shadow: 1px 1px black;
-            font-size:2.5em;
+            font-size:1.8em;
             line-height: 1em;
             font-weight: 900;
             text-align:center;
@@ -33,6 +41,26 @@
             left:45%;
             bottom: 5%;
             transform: translate(-45%, -3%)
+        }
+    }
+}
+
+@media(max-width:770px){
+    .container{
+        
+        .meme-form{
+            #form-row{
+                width: 100%;
+                margin:0px auto;
+              }
+        }
+     
+        #memeCont{
+
+            img{
+                max-width: 100%;
+
+            }
         }
     }
 }

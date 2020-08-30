@@ -31,7 +31,7 @@ export default function MemeCont(props){
             <div id='memeCont' className='d-relative my-3'>
                 <h2 className='text-center'>Oops!</h2>
                 <img className='d-block' src={wentWrongMeme} alt='something went terribly wrong meme'></img>
-                <a href='/index.html' className='btn btn-warning d-block mx-auto mt-2'>Refresh</a>
+                <a href='/index.html' style={{width:'max-content'}} className='btn btn-warning d-block mx-auto mt-2'>Refresh</a>
             </div>
         )
          

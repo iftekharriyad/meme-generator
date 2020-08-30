@@ -74,7 +74,7 @@ export default  class MemeGenerator extends Component{
 
                 <form className='meme-form' onSubmit={this.handleSubmit}>
                     <div id='form-row' className='form-row'>
-                        <div className='col'>
+                        <div className='col-12 col-md'>
                             <input 
                                 type='text'
                                 name='topText'
@@ -84,7 +84,7 @@ export default  class MemeGenerator extends Component{
                                 placeholder='Top Text'
                             />
                         </div>
-                        <div className='col'>
+                        <div className='col-12 col-md'>
                             <input 
                                 type='text'
                                 name='bottomText'
@@ -94,8 +94,8 @@ export default  class MemeGenerator extends Component{
                                 placeholder='Bottom Text'
                             />
                         </div>
-                        <div className='col-2'>
-                        <button  className='btn btn-generate'>Generate</button>
+                        <div className='col-12 col-md-3'>
+                        <button  className='btn btn-generate btn-block btn-md'>Generate</button>
                         </div>
                     </div>
 

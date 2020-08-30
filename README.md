@@ -2,5 +2,6 @@
 
 Meme generator using react.
 
-##Preview
+## Preview
+
 ![](preview.gif)

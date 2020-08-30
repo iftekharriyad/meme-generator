@@ -1,6 +1,6 @@
 # Meme Generator
 
-Meme generator using react.
+Meme generator using React.js 
 
 ## Preview
 

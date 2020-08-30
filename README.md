@@ -3,4 +3,4 @@
 Meme generator using react.
 
 ##Preview
-![](preview.gif)
+![](/src/gifs/preview.gif)
